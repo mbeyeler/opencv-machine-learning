@@ -9,13 +9,13 @@ from generate_contents import NOTEBOOK_DIR, REG, iter_notebooks, get_notebook_ti
 
 
 def prev_this_next(it):
-    a, b, c = itertools.tee(it,3)
+    a, b, c = itertools.tee(it, 3)
     next(c)
     return zip(itertools.chain([None], a), b, itertools.chain(c, [None]))
 
 
 PREV_TEMPLATE = "< [{title}]({url}) "
-CONTENTS = "| [Contents](Index.ipynb) |"
+CONTENTS = "| [Contents](../README.md) |"
 NEXT_TEMPLATE = " [{title}]({url}) >"
 NAV_COMMENT = "<!--NAVIGATION-->\n"
 
