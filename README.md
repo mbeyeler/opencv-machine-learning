@@ -3,7 +3,7 @@
 [![Binder](http://mybinder.org/badge.svg)](http://mybinder.org/repo/mbeyeler/opencv-machine-learning)
 
 This is the Jupyter notebook version of the book [Machine Learning for OpenCV]() by Michael Beyeler.
-The content is available on [https://github.com/mbeyeler/opencv-machine-learning](GitHub).
+The content is available on [GitHub](https://github.com/mbeyeler/opencv-machine-learning).
 
 [//]: # (The text is released under the [CC-BY-ND-ND license](https://creativecommons.org/licenses/by-nc-nd/3.0/us/legalcode))
 
@@ -40,3 +40,74 @@ The code is released under the [MIT license](https://opensource.org/licenses/MIT
 11. [Selecting the Right Model with Hyper-Parameter Tuning](notebooks/11.00-Selecting-the-Right-Model-with-Hyper-Parameter-Tuning.ipynb)
 
 12. [Conclusion](notebooks/12.00-Conclusion.ipynb)
+
+
+
+## Running the Code
+
+There are at least two ways you can run the code:
+- by launching the project using [Binder](http://mybinder.org/repo/mbeyeler/opencv-machine-learning)
+  (no installation required).
+- from within a Jupyter notebook on your local machine.
+
+The code in this book was tested with Python 3.5, although older versions of Python should work as well
+(such as Python 2.7).
+
+
+### Using Binder
+
+[Binder](http://www.mybinder.org) allows you to run Jupyter notebooks in an interactive Docker container.
+All you have to do is go to:
+http://mybinder.org/repo/mbeyeler/opencv-machine-learning
+
+
+### Using Jupyter Notebook
+
+You basically want to follow the installation instructions in Chapter 1 of the book.
+
+In short:
+
+1. Download and install [Python Anaconda](https://www.continuum.io/downloads).
+
+2. Create a conda environment for Python 3 with all required packages:
+
+   ```
+   $ conda create -n Python3 python=3.5 --file requirements.txt
+   ```
+
+3. Activate the conda environment.
+   On Linux / Mac OS X:
+
+   ```
+   $ source activate Python3
+   ```
+
+   On Windows:
+
+   ```
+   $ activate Python3
+   ```
+
+   You can learn more about conda environments in the
+   [Managing Environments](http://conda.pydata.org/docs/using/envs.html)
+   section of the conda documentation.
+
+4. Fork and clone the GitHub repo:
+   - Click the
+     [`Fork`](https://github.com/mbeyeler/opencv-machine-learning#fork-destination-box)
+     button in the top-right corner of this page.
+   - Clone the repo, where `YourUsername` is your actual GitHub user name:
+
+     ```
+     $ git clone https://github.com/YourUsername/opencv-machine-learning
+     ```
+
+5. Launch Jupyter notebook:
+
+   ```
+   $ jupyter notebook
+   ```
+
+   This will open up a browser window in your current directory.
+   Navigate to `opencv-machine-learning/notebooks` and click on the notebook of your choice.
+   Then select `Kernel > Restart & Run All`.
