@@ -12,6 +12,7 @@ def fix_kernelspec():
 
         print("- Updating kernelspec for {0}".format(nb_name))
         nb['metadata']['kernelspec']['display_name'] = 'Python 3'
+        nb['metadata']['kernelspec']['name'] = 'python3'
 
         nbformat.write(nb, nb_file)
 
