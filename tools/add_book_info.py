@@ -10,10 +10,10 @@ BOOK_COMMENT = "<!--BOOK_INFORMATION-->"
 
 
 BOOK_INFO = BOOK_COMMENT + """
-<img align="left" style="padding-right:10px;" src="figures/PDSH-cover-small.png">
-*This notebook contains an excerpt from the book Machine Learning for OpenCV by Michael Beyeler; the content is available [on GitHub](https://github.com/mbeyeler/opencv-machine-learning).*
+<img align="left" src="" style="width: 76px; height: 100px; background: gray; padding-right:10px;">
+*This notebook contains an excerpt from the upcoming book Machine Learning for OpenCV by Michael Beyeler. The content is available [on GitHub](https://github.com/mbeyeler/opencv-machine-learning).*
 
-*The text is released under the [CC-BY-NC-ND license](https://creativecommons.org/licenses/by-nc-nd/3.0/us/legalcode), and code is released under the [MIT license](https://opensource.org/licenses/MIT). If you find this content useful, please consider supporting the work by [buying the book](https://github.com/mbeyeler/opencv-machine-learning)!*"""
+*The code is released under the [MIT license](https://opensource.org/licenses/MIT). This excerpt contains only the raw code - the book is rich with additional explanations and illustrations. If you find this content useful, please consider supporting the work by [buying the book](https://github.com/mbeyeler/opencv-machine-learning)!*"""
 
 
 def add_book_info():
