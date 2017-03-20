@@ -25,6 +25,7 @@ The code is released under the [MIT license](https://opensource.org/licenses/MIT
    - [The k-Nearest Neighbor Algorithm](notebooks/03.01-The-k-Nearest-Neighbor-Algorithm.ipynb)
    - [Logistic Regression](notebooks/03.02-Logistic-Regression.ipynb)
    - [Linear Regression](notebooks/03.03-Linear-Regression.ipynb)
+   - [Ridge Regression](notebooks/03.04-Ridge-Regression.ipynb)
 
 4. [Representing Data and Engineering Features](notebooks/04.00-Representing-Data-and-Engineering-Features.ipynb)
 
