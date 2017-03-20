@@ -22,6 +22,9 @@ The code is released under the [MIT license](https://opensource.org/licenses/MIT
    - [Dealing with Data Using OpenCV's TrainData container](notebooks/02.05-Dealing-with-Data-Using-the-OpenCV-TrainData-Container-in-C%2B%2B.ipynb)
 
 3. [First Steps in Supervised Learning](notebooks/03.00-First-Steps-in-Supervised-Learning.ipynb)
+   - [The k-Nearest Neighbor Algorithm](notebooks/03.01-The-k-Nearest-Neighbor-Algorithm.ipynb)
+   - [Logistic Regression](notebooks/03.02-Logistic-Regression.ipynb)
+   - [Linear Regression](notebooks/03.03-Linear-Regression.ipynb)
 
 4. [Representing Data and Engineering Features](notebooks/04.00-Representing-Data-and-Engineering-Features.ipynb)
 
