@@ -2,7 +2,7 @@
 
 [![Binder](http://mybinder.org/badge.svg)](http://mybinder.org/repo/mbeyeler/opencv-machine-learning)
 
-This is the Jupyter notebook version of the book [Machine Learning for OpenCV]() by Michael Beyeler.
+This is the Jupyter notebook version of the upcoming book [Machine Learning for OpenCV]() by Michael Beyeler.
 The content is available on [GitHub](https://github.com/mbeyeler/opencv-machine-learning).
 
 [//]: # (The text is released under the [CC-BY-ND-ND license](https://creativecommons.org/licenses/by-nc-nd/3.0/us/legalcode))
