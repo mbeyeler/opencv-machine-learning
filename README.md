@@ -28,6 +28,11 @@ The code is released under the [MIT license](https://opensource.org/licenses/MIT
    - [Ridge Regression](notebooks/03.04-Ridge-Regression.ipynb)
 
 4. [Representing Data and Engineering Features](notebooks/04.00-Representing-Data-and-Engineering-Features.ipynb)
+   - [Preprocessing Data](notebooks/notebooks/04.01-Preprocessing-Data.ipynb)
+   - [Reducing the Dimensionality of the Data](notebooks/04.02-Reducing-the-Dimensionality-of-the-Data.ipynb)
+   - [Representing Categorical Variables](notebooks/04.03-Representing-Categorical-Variables.ipynb)
+   - [Representing Text Features](notebooks/notebooks/04.04-Represening-Text-Features.ipynb)
+   - [Representing Images](notebooks/notebooks/04.05-Representing-Images.ipynb)
 
 5. [Using Decision Trees to Make a Medical Diagnosis](notebooks/05.00-Using-Decision-Trees-to-Make-a-Medical-Diagnosis.ipynb)
 
