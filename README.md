@@ -35,6 +35,8 @@ The code is released under the [MIT license](https://opensource.org/licenses/MIT
    - [Representing Images](notebooks/04.05-Representing-Images.ipynb)
 
 5. [Using Decision Trees to Make a Medical Diagnosis](notebooks/05.00-Using-Decision-Trees-to-Make-a-Medical-Diagnosis.ipynb)
+   - [Building Your First Decision Tree](notebooks/05.01-Building-Your-First-Decision-Tree.ipynb)
+   - [Using Decision Trees to Diagnose Breast Cancer](notebooks/05.02-Using-Decision-Trees-to-Diagnose-Breast-Cancer.ipynb)
 
 6. [Detecting Pedestrians with Support Vector Machines](notebooks/06.00-Detecting-Pedestrians-with-Support-Vector-Machines.ipynb)
 
