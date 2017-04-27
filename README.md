@@ -38,6 +38,9 @@ The code is released under the [MIT license](https://opensource.org/licenses/MIT
    - [Using Decision Trees for Regression](notebooks/05.03-Using-Decision-Trees-for-Regression.ipynb)
 
 6. [Detecting Pedestrians with Support Vector Machines](notebooks/06.00-Detecting-Pedestrians-with-Support-Vector-Machines.ipynb)
+   - [Implementing Your First Support Vector Machine](notebooks/06.01-Implementing-Your-First-Support-Vector-Machine.ipynb)
+   - [Detecting Pedestrians in the Wild](notebooks/06.02-Detecting-Pedestrians-in-the-Wild.ipynb)
+   - [Additional SVM Exercises](notebooks/06.03-Additional-SVM-Exercises.ipynb)
 
 7. [Implementing a Spam Filter with Bayesian Learning](notebooks/07.00-Implementing-a-Spam-Filter-with-Bayesian-Learning.ipynb)
 
