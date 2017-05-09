@@ -43,8 +43,12 @@ The code is released under the [MIT license](https://opensource.org/licenses/MIT
    - [Additional SVM Exercises](notebooks/06.03-Additional-SVM-Exercises.ipynb)
 
 7. [Implementing a Spam Filter with Bayesian Learning](notebooks/07.00-Implementing-a-Spam-Filter-with-Bayesian-Learning.ipynb)
+   - [Implementing Your First Bayesian Classifier](notebooks/07.01-Implementing-Your-First-Bayesian-Classifier.ipynb)
+   - [Classifying E-Mails Using Naive Bayes](notebooks/07.02-Classifying-Emails-Using-Naive-Bayes.ipynb)
 
 8. [Discovering Hidden Structures with Unsupervised Learning](notebooks/08.00-Discovering-Hidden-Structures-with-Unsupervised-Learning.ipynb)
+   - [Understanding k-Means Clustering](notebooks/08.01-Understanding-k-Means-Clustering.ipynb)
+   - [Compressing Color Images Using k-Means](notebooks/08.02-Compressing-Color-Images-Using-k-Means.ipynb)
 
 9. [Using Deep Learning to Classify Handwritten Digits](notebooks/09.00-Using-Deep-Learning-to-Classify-Handwritten-Digits.ipynb)
 
