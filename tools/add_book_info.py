@@ -10,8 +10,8 @@ BOOK_COMMENT = "<!--BOOK_INFORMATION-->"
 
 
 BOOK_INFO = BOOK_COMMENT + """
-<img align="left" src="" style="width: 76px; height: 100px; background: white; border: 1px solid black; margin-right:10px;">
-*This notebook contains an excerpt from the upcoming book Machine Learning for OpenCV by Michael Beyeler.
+<img align="left" src="data/cover.jpg" style="width: 76px; height: 100px; background: white; padding: 1px; border: 1px solid black; margin-right:10px;">
+*This notebook contains an excerpt from the upcoming book [Machine Learning for OpenCV](https://www.packtpub.com/big-data-and-business-intelligence/machine-learning-opencv) by Michael Beyeler (expected Aug 2017).
 The code is released under the [MIT license](https://opensource.org/licenses/MIT),
 and is available on [GitHub](https://github.com/mbeyeler/opencv-machine-learning).*
 
