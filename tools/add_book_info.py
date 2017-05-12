@@ -17,7 +17,7 @@ and is available on [GitHub](https://github.com/mbeyeler/opencv-machine-learning
 
 *Note that this excerpt contains only the raw code - the book is rich with additional explanations and illustrations.
 If you find this content useful, please consider supporting the work by
-[buying the book](https://github.com/mbeyeler/opencv-machine-learning)!*"""
+[buying the book](https://www.packtpub.com/big-data-and-business-intelligence/machine-learning-opencv)!*"""
 
 
 def add_book_info():
