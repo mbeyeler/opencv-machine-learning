@@ -76,9 +76,8 @@ The code is released under the [MIT license](https://opensource.org/licenses/MIT
 ## Running the Code
 
 There are at least two ways you can run the code:
-- by launching the project using [Binder](http://mybinder.org/repo/mbeyeler/opencv-machine-learning)
-  (no installation required).
-- from within a Jupyter notebook on your local machine.
+- Using [Binder](http://mybinder.org) (no installation required).
+- Using Jupyter Notebook on your local machine.
 
 The code in this book was tested with Python 3.5, although older versions of Python should work as well
 (such as Python 2.7).
@@ -87,8 +86,13 @@ The code in this book was tested with Python 3.5, although older versions of Pyt
 ### Using Binder
 
 [Binder](http://www.mybinder.org) allows you to run Jupyter notebooks in an interactive Docker container.
-All you have to do is go to:
-http://mybinder.org/repo/mbeyeler/opencv-machine-learning
+No installation required!
+
+1. Make sure the service is up and running: [Check status](http://mybinder.org/status).
+   "Deploy" should have a green button.
+
+2. Launch the project: [mbeyeler/opencv-machine-learning](http://mybinder.org/repo/mbeyeler/opencv-machine-learning)
+
 
 
 ### Using Jupyter Notebook
@@ -99,13 +103,19 @@ In short:
 
 1. Download and install [Python Anaconda](https://www.continuum.io/downloads).
 
-2. Create a conda environment for Python 3 with all required packages:
+2. Add Conda-Forge to your trusted channels (to simplify installation of OpenCV on Windows platforms):
+
+   ```
+   $ conda config --add channels conda-forge
+   ```
+
+3. Create a conda environment for Python 3 with all required packages:
 
    ```
    $ conda create -n Python3 python=3.5 --file requirements.txt
    ```
 
-3. Activate the conda environment.
+4. Activate the conda environment.
    On Linux / Mac OS X:
 
    ```
@@ -122,7 +132,7 @@ In short:
    [Managing Environments](http://conda.pydata.org/docs/using/envs.html)
    section of the conda documentation.
 
-4. Fork and clone the GitHub repo:
+5. Fork and clone the GitHub repo:
    - Click the
      [`Fork`](https://github.com/mbeyeler/opencv-machine-learning#fork-destination-box)
      button in the top-right corner of this page.
@@ -132,12 +142,14 @@ In short:
      $ git clone https://github.com/YourUsername/opencv-machine-learning
      ```
 
-5. Launch Jupyter notebook:
+6. Launch Jupyter notebook:
 
    ```
    $ jupyter notebook
    ```
 
    This will open up a browser window in your current directory.
-   Navigate to `opencv-machine-learning/notebooks` and click on the notebook of your choice.
-   Then select `Kernel > Restart & Run All`.
+   Navigate to the folder `opencv-machine-learning`.
+   The README file has a table of contents.
+   Else navigate to the `notebooks` folder, click on the notebook of your choice,
+   and select `Kernel > Restart & Run All` from the top menu.
