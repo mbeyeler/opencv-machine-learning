@@ -2,10 +2,23 @@
 
 [![Binder](http://mybinder.org/badge.svg)](http://mybinder.org/repo/mbeyeler/opencv-machine-learning)
 
-This is the Jupyter notebook version of the upcoming book [Machine Learning for OpenCV]() by Michael Beyeler.
-The content is available on [GitHub](https://github.com/mbeyeler/opencv-machine-learning).
+This is the Jupyter notebook version of the following book:
 
+<img src="notebooks/data/cover.jpg" width="200" align="left" style="padding: 1px; border: 1px solid black; margin-right: 5px"/> <br/>
+Michael Beyeler <br/>
+<a href="https://www.packtpub.com/big-data-and-business-intelligence/machine-learning-opencv" target="_blank"><b>Machine Learning for OpenCV: A practical introduction to the world of machine learning using OpenCV</b></a>
+<br/><br/>
+expected August 2017 <br/>
+Packt Publishing Ltd., London, England <br/>
+Paperback: ~380 pages <br/>
+ISBN 978-178398028-4
+<br clear="both"/><br/>
+
+
+The content is available on [GitHub](https://github.com/mbeyeler/opencv-machine-learning).
 The code is released under the [MIT license](https://opensource.org/licenses/MIT).
+
+
 
 ## Table of Contents
 
