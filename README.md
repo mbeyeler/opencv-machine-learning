@@ -62,6 +62,8 @@ The code is released under the [MIT license](https://opensource.org/licenses/MIT
 8. [Discovering Hidden Structures with Unsupervised Learning](notebooks/08.00-Discovering-Hidden-Structures-with-Unsupervised-Learning.ipynb)
    - [Understanding k-Means Clustering](notebooks/08.01-Understanding-k-Means-Clustering.ipynb)
    - [Compressing Color Images Using k-Means](notebooks/08.02-Compressing-Color-Images-Using-k-Means.ipynb)
+   - [Classifying Handwritten Digits Using k-Means](notebooks/08.03-Classifying-Handwritten-Digits-Using-k-Means.ipynb)
+   - [Implementing Agglomerative Hierarchical Clustering](notebooks/08.04-Implementing-Agglomerative-Hierarchical-Clustering.ipynb)
 
 9. [Using Deep Learning to Classify Handwritten Digits](notebooks/09.00-Using-Deep-Learning-to-Classify-Handwritten-Digits.ipynb)
 
