@@ -1,5 +1,6 @@
 # Machine Learning for OpenCV
 
+[![Google group](https://img.shields.io/badge/Google-Discussion%20group-lightgrey.svg)](https://groups.google.com/d/forum/machine-learning-for-opencv)
 [![Binder](http://mybinder.org/badge.svg)](http://mybinder.org/repo/mbeyeler/opencv-machine-learning)
 
 This is the Jupyter notebook version of the following book:
