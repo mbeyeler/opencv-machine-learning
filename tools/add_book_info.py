@@ -11,7 +11,7 @@ BOOK_COMMENT = "<!--BOOK_INFORMATION-->"
 
 BOOK_INFO = BOOK_COMMENT + """
 <a href="https://www.packtpub.com/big-data-and-business-intelligence/machine-learning-opencv" target="_blank"><img align="left" src="data/cover.jpg" style="width: 76px; height: 100px; background: white; padding: 1px; border: 1px solid black; margin-right:10px;"></a>
-*This notebook contains an excerpt from the upcoming book [Machine Learning for OpenCV](https://www.packtpub.com/big-data-and-business-intelligence/machine-learning-opencv) by Michael Beyeler (expected Aug 2017).
+*This notebook contains an excerpt from the book [Machine Learning for OpenCV](https://www.packtpub.com/big-data-and-business-intelligence/machine-learning-opencv) by Michael Beyeler.
 The code is released under the [MIT license](https://opensource.org/licenses/MIT),
 and is available on [GitHub](https://github.com/mbeyeler/opencv-machine-learning).*
 
