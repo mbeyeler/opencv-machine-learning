@@ -1,7 +1,7 @@
 # Machine Learning for OpenCV
 
 [![Google group](https://img.shields.io/badge/Google-Discussion%20group-lightgrey.svg)](https://groups.google.com/d/forum/machine-learning-for-opencv)
-[![Binder](http://mybinder.org/badge.svg)](http://beta.mybinder.org/v2/mbeyeler/opencv-machine-learning/master)
+[![Binder](http://mybinder.org/badge.svg)](http://beta.mybinder.org/v2/gh/mbeyeler/opencv-machine-learning/master)
 
 This is the Jupyter notebook version of the following book:
 
@@ -91,7 +91,7 @@ The code is released under the [MIT license](https://opensource.org/licenses/MIT
 ## Running the Code
 
 There are at least two ways you can run the code:
-- Using [Binder](http://beta.mybinder.org/v2/mbeyeler/opencv-machine-learning/master) (no installation required).
+- Using [Binder](http://beta.mybinder.org/v2/gh/mbeyeler/opencv-machine-learning/master) (no installation required).
 - Using Jupyter Notebook on your local machine.
 
 The code in this book was tested with Python 3.5, although older versions of Python should work as well
@@ -103,7 +103,7 @@ The code in this book was tested with Python 3.5, although older versions of Pyt
 [Binder](http://www.mybinder.org) allows you to run Jupyter notebooks in an interactive Docker container.
 No installation required!
 
-Launch the project: [mbeyeler/opencv-machine-learning](http://beta.mybinder.org/v2/mbeyeler/opencv-machine-learning/master)
+Launch the project: [mbeyeler/opencv-machine-learning](http://beta.mybinder.org/v2/gh/mbeyeler/opencv-machine-learning/master)
 
 
 
