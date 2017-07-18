@@ -1,17 +1,17 @@
 # Machine Learning for OpenCV
 
 [![Google group](https://img.shields.io/badge/Google-Discussion%20group-lightgrey.svg)](https://groups.google.com/d/forum/machine-learning-for-opencv)
-[![Binder](http://mybinder.org/badge.svg)](http://mybinder.org/repo/mbeyeler/opencv-machine-learning)
+[![Binder](http://mybinder.org/badge.svg)](http://beta.mybinder.org/v2/mbeyeler/opencv-machine-learning/master)
 
 This is the Jupyter notebook version of the following book:
 
 <img src="notebooks/data/cover.jpg" width="200" align="left" style="padding: 1px; border: 1px solid black; margin-right: 5px"/> <br/>
 Michael Beyeler <br/>
-<a href="https://www.packtpub.com/big-data-and-business-intelligence/machine-learning-opencv" target="_blank"><b>Machine Learning for OpenCV: A practical introduction to the world of machine learning using OpenCV</b></a>
+<a href="https://www.packtpub.com/big-data-and-business-intelligence/machine-learning-opencv" target="_blank"><b>Machine Learning for OpenCV: A practical introduction to the world of machine learning using OpenCV and Python</b></a>
 <br/><br/>
-expected August 2017 <br/>
+14 July 2017 <br/>
 Packt Publishing Ltd., London, England <br/>
-Paperback: ~380 pages <br/>
+Paperback: 382 pages <br/>
 ISBN 978-178398028-4
 <br clear="both"/><br/>
 
@@ -67,19 +67,31 @@ The code is released under the [MIT license](https://opensource.org/licenses/MIT
    - [Implementing Agglomerative Hierarchical Clustering](notebooks/08.04-Implementing-Agglomerative-Hierarchical-Clustering.ipynb)
 
 9. [Using Deep Learning to Classify Handwritten Digits](notebooks/09.00-Using-Deep-Learning-to-Classify-Handwritten-Digits.ipynb)
+   - [Understanding Perceptrons](notebooks/09.01-Understanding-Perceptrons.ipynb)
+   - [Implementing a Multi-Layer Perceptron](notebooks/09.02-Implementing-a-Multi-Layer-Perceptron.ipynb)
+   - [Getting Acquainted with Deep Learning](notebooks/09.03-Getting-Acquainted-with-Deep-Learning.ipynb)
+   - [Classifying Handwritten Digits](notebooks/09.04-Classifying-Handwritten-Digits.ipynb)
+   - [Training a Deep Neural Net Using Keras](notebooks/09.05-Training-a-Deep-Neural-Net-Using-Keras.ipynb)
 
 10. [Combining Different Algorithms Into an Ensemble](notebooks/10.00-Combining-Different-Algorithms-Into-an-Ensemble.ipynb)
+   - [Combining Decision Trees Into a Random Forest](notebooks/10.01-Combining-Decision-Trees-Into-a-Random-Forest.ipynb)
+   - [Using Random Forests for Face Recognition](notebooks/10.02-Using-Random-Forests-for-Face-Recognition.ipynb)
+   - [Implementing AdaBoost](notebooks/10.03-Implementing-AdaBoost.ipynb)
+   - [Implementing a Voting Classifier](notebooks/10.04-Implementing-a-Voting-Classifier.ipynb)
 
 11. [Selecting the Right Model with Hyper-Parameter Tuning](notebooks/11.00-Selecting-the-Right-Model-with-Hyper-Parameter-Tuning.ipynb)
+   - [Understanding Cross-Validation, Bootstrapping, and McNemar's Test](notebooks/11.01-Understanding-Cross-Validation-Bootstrapping-and-McNemar's-Test.ipynb)
+   - [Tuning Hyperparameters with Grid Search](notebooks/11.02-Tuning-Hyperparameters-with-Grid-Search.ipynb)
+   - [Chaining Algorithms Together to Form a Pipeline](notebooks/11.03-Chaining-Algorithms-Together-to-Form-a-Pipeline.ipynb)
 
-12. [Conclusion](notebooks/12.00-Conclusion.ipynb)
+12. [Wrapping Up](notebooks/12.00-Wrapping-Up.ipynb)
 
 
 
 ## Running the Code
 
 There are at least two ways you can run the code:
-- Using [Binder](http://mybinder.org) (no installation required).
+- Using [Binder](http://beta.mybinder.org/v2/mbeyeler/opencv-machine-learning/master) (no installation required).
 - Using Jupyter Notebook on your local machine.
 
 The code in this book was tested with Python 3.5, although older versions of Python should work as well
@@ -91,10 +103,7 @@ The code in this book was tested with Python 3.5, although older versions of Pyt
 [Binder](http://www.mybinder.org) allows you to run Jupyter notebooks in an interactive Docker container.
 No installation required!
 
-1. Make sure the service is up and running: [Check status](http://mybinder.org/status).
-   "Deploy" should have a green button.
-
-2. Launch the project: [mbeyeler/opencv-machine-learning](http://mybinder.org/repo/mbeyeler/opencv-machine-learning)
+Launch the project: [mbeyeler/opencv-machine-learning](http://beta.mybinder.org/v2/mbeyeler/opencv-machine-learning/master)
 
 
 
