@@ -7,7 +7,7 @@ This is the Jupyter notebook version of the following book:
 
 <img src="notebooks/data/cover.jpg" width="200" align="left" style="padding: 1px; border: 1px solid black; margin-right: 5px"/> <br/>
 Michael Beyeler <br/>
-<a href="https://www.packtpub.com/big-data-and-business-intelligence/machine-learning-opencv" target="_blank"><b>Machine Learning for OpenCV: A practical introduction to the world of machine learning using OpenCV and Python</b></a>
+<a href="https://www.packtpub.com/big-data-and-business-intelligence/machine-learning-opencv" target="_blank"><b>Machine Learning for OpenCV: A practical introduction to the world of machine learning and image processing using OpenCV and Python</b></a>
 <br/><br/>
 14 July 2017 <br/>
 Packt Publishing Ltd., London, England <br/>
