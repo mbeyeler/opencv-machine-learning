@@ -1,7 +1,7 @@
 # Machine Learning for OpenCV
 
 [![Google group](https://img.shields.io/badge/Google-Discussion%20group-lightgrey.svg)](https://groups.google.com/d/forum/machine-learning-for-opencv)
-[![Binder](http://mybinder.org/badge.svg)](http://beta.mybinder.org/v2/gh/mbeyeler/opencv-machine-learning/master)
+[![Binder](http://mybinder.org/badge.svg)](http://beta.mybinder.org/v2/mbeyeler/opencv-machine-learning/master)
 
 This is the Jupyter notebook version of the following book:
 
@@ -36,10 +36,11 @@ The code is released under the [MIT license](https://opensource.org/licenses/MIT
    - [Dealing with Data Using OpenCV's TrainData container](notebooks/02.05-Dealing-with-Data-Using-the-OpenCV-TrainData-Container-in-C%2B%2B.ipynb)
 
 3. [First Steps in Supervised Learning](notebooks/03.00-First-Steps-in-Supervised-Learning.ipynb)
-   - [The k-Nearest Neighbor Algorithm](notebooks/03.01-The-k-Nearest-Neighbor-Algorithm.ipynb)
-   - [Logistic Regression](notebooks/03.02-Logistic-Regression.ipynb)
-   - [Linear Regression](notebooks/03.03-Linear-Regression.ipynb)
-   - [Ridge Regression](notebooks/03.04-Ridge-Regression.ipynb)
+   - [Measuring Model Performance with Scoring Functions](notebooks/03.01-Measuring-Model-Performance-with-Scoring-Functions)
+   - [Understanding the k-NN Algorithm](notebooks/03.02-Understanding-the-k-NN-Algorithm.ipynb)
+   - [Using Regression Models to Predict Continuous Outcomes](notebooks/03.03-Using-Regression-Models-to-Predict-Continuous-Outcomes.ipynb)
+   - [Applying Lasso and Ridge Regression](notebooks/03.04-Applying-Lasso-and-Ridge-Regression)
+   - [Classifying Iris Species Using Logistic Regression](notebooks/03.05-Classifying-Iris-Species-Using-Logistic-Regression)
 
 4. [Representing Data and Engineering Features](notebooks/04.00-Representing-Data-and-Engineering-Features.ipynb)
    - [Preprocessing Data](notebooks/04.01-Preprocessing-Data.ipynb)
@@ -59,7 +60,7 @@ The code is released under the [MIT license](https://opensource.org/licenses/MIT
    - [Additional SVM Exercises](notebooks/06.03-Additional-SVM-Exercises.ipynb)
 
 7. [Implementing a Spam Filter with Bayesian Learning](notebooks/07.00-Implementing-a-Spam-Filter-with-Bayesian-Learning.ipynb)
-   - [Implementing Your First Bayesian Classifier](notebooks/07.01-Implementing-Your-First-Bayesian-Classifier.ipynb)
+   - [Implementing Our First Bayesian Classifier](notebooks/07.01-Implementing-Our-First-Bayesian-Classifier.ipynb)
    - [Classifying E-Mails Using Naive Bayes](notebooks/07.02-Classifying-Emails-Using-Naive-Bayes.ipynb)
 
 8. [Discovering Hidden Structures with Unsupervised Learning](notebooks/08.00-Discovering-Hidden-Structures-with-Unsupervised-Learning.ipynb)
@@ -95,7 +96,7 @@ The code is released under the [MIT license](https://opensource.org/licenses/MIT
 ## Running the Code
 
 There are at least two ways you can run the code:
-- Using [Binder](http://beta.mybinder.org/v2/gh/mbeyeler/opencv-machine-learning/master) (no installation required).
+- Using [Binder](http://beta.mybinder.org/v2/mbeyeler/opencv-machine-learning/master) (no installation required).
 - Using Jupyter Notebook on your local machine.
 
 The code in this book was tested with Python 3.5, although older versions of Python should work as well
@@ -107,7 +108,7 @@ The code in this book was tested with Python 3.5, although older versions of Pyt
 [Binder](http://www.mybinder.org) allows you to run Jupyter notebooks in an interactive Docker container.
 No installation required!
 
-Launch the project: [mbeyeler/opencv-machine-learning](http://beta.mybinder.org/v2/gh/mbeyeler/opencv-machine-learning/master)
+Launch the project: [mbeyeler/opencv-machine-learning](http://beta.mybinder.org/v2/mbeyeler/opencv-machine-learning/master)
 
 
 
