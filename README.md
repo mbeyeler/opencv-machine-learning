@@ -170,3 +170,14 @@ In short:
    The README file has a table of contents.
    Else navigate to the `notebooks` folder, click on the notebook of your choice,
    and select `Kernel > Restart & Run All` from the top menu.
+   
+   
+## Acknowledgment
+
+This book was inspired in many ways by the following authors and their corresponding publications:
+- Jake VanderPlas, Python Data Science Handbook: Essential Tools for Working with Data. O'Reilly, ISBN 978-149191205-8, 2016, https://github.com/jakevdp/PythonDataScienceHandbook
+- Andreas Muller and Sarah Guido, Introduction to Machine Learning with Python: A Guide for Data Scientists. O'Reilly, ISBN
+978-144936941-5, 2016, https://github.com/amueller/introduction_to_ml_with_python
+- Sebastian Raschka, Python Machine Learning. Packt, ISBN 978-178355513-0, 2015, https://github.com/rasbt/python-machine-learning-book
+
+These books all come with their own open-source code - check them out when you get a chance!
