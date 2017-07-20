@@ -25,6 +25,8 @@ The code is released under the [MIT license](https://opensource.org/licenses/MIT
 
 [Preface](notebooks/00.00-Preface.ipynb)
 
+[Foreword by Ariel Rokem](notebooks/00.01-Foreword-by-Ariel-Rokem.ipynb)
+
 1. [A Taste of Machine Learning](notebooks/01.00-A-Taste-of-Machine-Learning.ipynb)
 
 2. [Working with Data in OpenCV](notebooks/02.00-Working-with-Data-in-OpenCV.ipynb)
@@ -68,21 +70,23 @@ The code is released under the [MIT license](https://opensource.org/licenses/MIT
 
 9. [Using Deep Learning to Classify Handwritten Digits](notebooks/09.00-Using-Deep-Learning-to-Classify-Handwritten-Digits.ipynb)
    - [Understanding Perceptrons](notebooks/09.01-Understanding-Perceptrons.ipynb)
-   - [Implementing a Multi-Layer Perceptron](notebooks/09.02-Implementing-a-Multi-Layer-Perceptron.ipynb)
+   - [Implementing a Multi-Layer Perceptron in OpenCV](notebooks/09.02-Implementing-a-Multi-Layer-Perceptron-in-OpenCV.ipynb)
    - [Getting Acquainted with Deep Learning](notebooks/09.03-Getting-Acquainted-with-Deep-Learning.ipynb)
-   - [Classifying Handwritten Digits](notebooks/09.04-Classifying-Handwritten-Digits.ipynb)
-   - [Training a Deep Neural Net Using Keras](notebooks/09.05-Training-a-Deep-Neural-Net-Using-Keras.ipynb)
+   - [Training an MLP in OpenCV to Classify Handwritten Digits](notebooks/09.04-Training-an-MLP-in-OpenCV-to-Classify-Handwritten-Digits)
+   - [Training a Deep Neural Net to Classify Handwritten Digits Using Keras](09.05-Training-a-Deep-Neural-Net-to-Classify-Handwritten-Digits-Using-Keras)
 
 10. [Combining Different Algorithms Into an Ensemble](notebooks/10.00-Combining-Different-Algorithms-Into-an-Ensemble.ipynb)
-   - [Combining Decision Trees Into a Random Forest](notebooks/10.01-Combining-Decision-Trees-Into-a-Random-Forest.ipynb)
-   - [Using Random Forests for Face Recognition](notebooks/10.02-Using-Random-Forests-for-Face-Recognition.ipynb)
-   - [Implementing AdaBoost](notebooks/10.03-Implementing-AdaBoost.ipynb)
-   - [Implementing a Voting Classifier](notebooks/10.04-Implementing-a-Voting-Classifier.ipynb)
+   - [Understanding Ensemble Methods](10.01-Understanding-Ensemble-Methods)
+   - [Combining Decision Trees Into a Random Forest](notebooks/10.02-Combining-Decision-Trees-Into-a-Random-Forest.ipynb)
+   - [Using Random Forests for Face Recognition](notebooks/10.03-Using-Random-Forests-for-Face-Recognition.ipynb)
+   - [Implementing AdaBoost](notebooks/10.04-Implementing-AdaBoost.ipynb)
+   - [Combining Different Models Into a Voting Classifier](notebooks/10.05-Combining-Different-Models-Into-a-Voting-Classifier)
 
 11. [Selecting the Right Model with Hyper-Parameter Tuning](notebooks/11.00-Selecting-the-Right-Model-with-Hyper-Parameter-Tuning.ipynb)
-   - [Understanding Cross-Validation, Bootstrapping, and McNemar's Test](notebooks/11.01-Understanding-Cross-Validation-Bootstrapping-and-McNemar's-Test.ipynb)
-   - [Tuning Hyperparameters with Grid Search](notebooks/11.02-Tuning-Hyperparameters-with-Grid-Search.ipynb)
-   - [Chaining Algorithms Together to Form a Pipeline](notebooks/11.03-Chaining-Algorithms-Together-to-Form-a-Pipeline.ipynb)
+   - [Evaluating a Model](notebooks/11.01-Evaluating-a-Model.ipynb)
+   - [Understanding Cross-Validation, Bootstrapping, and McNemar's Test](notebooks/11.02-Understanding-Cross-Validation-Bootstrapping-and-McNemar's-Test.ipynb)
+   - [Tuning Hyperparameters with Grid Search](notebooks/11.03-Tuning-Hyperparameters-with-Grid-Search.ipynb)
+   - [Chaining Algorithms Together to Form a Pipeline](notebooks/11.04-Chaining-Algorithms-Together-to-Form-a-Pipeline.ipynb)
 
 12. [Wrapping Up](notebooks/12.00-Wrapping-Up.ipynb)
 
