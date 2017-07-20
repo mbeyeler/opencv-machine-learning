@@ -77,17 +77,17 @@ The code is released under the [MIT license](https://opensource.org/licenses/MIT
    - [Training a Deep Neural Net to Classify Handwritten Digits Using Keras](09.05-Training-a-Deep-Neural-Net-to-Classify-Handwritten-Digits-Using-Keras)
 
 10. [Combining Different Algorithms Into an Ensemble](notebooks/10.00-Combining-Different-Algorithms-Into-an-Ensemble.ipynb)
-   - [Understanding Ensemble Methods](10.01-Understanding-Ensemble-Methods)
-   - [Combining Decision Trees Into a Random Forest](notebooks/10.02-Combining-Decision-Trees-Into-a-Random-Forest.ipynb)
-   - [Using Random Forests for Face Recognition](notebooks/10.03-Using-Random-Forests-for-Face-Recognition.ipynb)
-   - [Implementing AdaBoost](notebooks/10.04-Implementing-AdaBoost.ipynb)
-   - [Combining Different Models Into a Voting Classifier](notebooks/10.05-Combining-Different-Models-Into-a-Voting-Classifier)
+    - [Understanding Ensemble Methods](10.01-Understanding-Ensemble-Methods)
+    - [Combining Decision Trees Into a Random Forest](notebooks/10.02-Combining-Decision-Trees-Into-a-Random-Forest.ipynb)
+    - [Using Random Forests for Face Recognition](notebooks/10.03-Using-Random-Forests-for-Face-Recognition.ipynb)
+    - [Implementing AdaBoost](notebooks/10.04-Implementing-AdaBoost.ipynb)
+    - [Combining Different Models Into a Voting Classifier](notebooks/10.05-Combining-Different-Models-Into-a-Voting-Classifier)
 
 11. [Selecting the Right Model with Hyper-Parameter Tuning](notebooks/11.00-Selecting-the-Right-Model-with-Hyper-Parameter-Tuning.ipynb)
-   - [Evaluating a Model](notebooks/11.01-Evaluating-a-Model.ipynb)
-   - [Understanding Cross-Validation, Bootstrapping, and McNemar's Test](notebooks/11.02-Understanding-Cross-Validation-Bootstrapping-and-McNemar's-Test.ipynb)
-   - [Tuning Hyperparameters with Grid Search](notebooks/11.03-Tuning-Hyperparameters-with-Grid-Search.ipynb)
-   - [Chaining Algorithms Together to Form a Pipeline](notebooks/11.04-Chaining-Algorithms-Together-to-Form-a-Pipeline.ipynb)
+    - [Evaluating a Model](notebooks/11.01-Evaluating-a-Model.ipynb)
+    - [Understanding Cross-Validation, Bootstrapping, and McNemar's Test](notebooks/11.02-Understanding-Cross-Validation-Bootstrapping-and-McNemar's-Test.ipynb)
+    - [Tuning Hyperparameters with Grid Search](notebooks/11.03-Tuning-Hyperparameters-with-Grid-Search.ipynb)
+    - [Chaining Algorithms Together to Form a Pipeline](notebooks/11.04-Chaining-Algorithms-Together-to-Form-a-Pipeline.ipynb)
 
 12. [Wrapping Up](notebooks/12.00-Wrapping-Up.ipynb)
 
