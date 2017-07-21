@@ -7,3 +7,4 @@ jupyter
 notebook
 pandas
 keras
+mkl-service
