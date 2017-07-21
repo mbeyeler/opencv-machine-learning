@@ -2,6 +2,7 @@
 
 [![Google group](https://img.shields.io/badge/Google-Discussion%20group-lightgrey.svg)](https://groups.google.com/d/forum/machine-learning-for-opencv)
 [![Binder](http://mybinder.org/badge.svg)](http://beta.mybinder.org/v2/gh/mbeyeler/opencv-machine-learning/master)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.833523.svg)](https://doi.org/10.5281/zenodo.833523)
 
 This is the Jupyter notebook version of the following book:
 
