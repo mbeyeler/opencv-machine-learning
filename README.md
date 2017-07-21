@@ -92,10 +92,10 @@ Or use the following bibtex:
    - [Implementing a Multi-Layer Perceptron in OpenCV](notebooks/09.02-Implementing-a-Multi-Layer-Perceptron-in-OpenCV.ipynb)
    - [Getting Acquainted with Deep Learning](notebooks/09.03-Getting-Acquainted-with-Deep-Learning.ipynb)
    - [Training an MLP in OpenCV to Classify Handwritten Digits](notebooks/09.04-Training-an-MLP-in-OpenCV-to-Classify-Handwritten-Digits.ipynb)
-   - [Training a Deep Neural Net to Classify Handwritten Digits Using Keras](09.05-Training-a-Deep-Neural-Net-to-Classify-Handwritten-Digits-Using-Keras.ipynb)
+   - [Training a Deep Neural Net to Classify Handwritten Digits Using Keras](notebooks/09.05-Training-a-Deep-Neural-Net-to-Classify-Handwritten-Digits-Using-Keras.ipynb)
 
 10. [Combining Different Algorithms Into an Ensemble](notebooks/10.00-Combining-Different-Algorithms-Into-an-Ensemble.ipynb)
-    - [Understanding Ensemble Methods](10.01-Understanding-Ensemble-Methods.ipynb)
+    - [Understanding Ensemble Methods](notebooks/10.01-Understanding-Ensemble-Methods.ipynb)
     - [Combining Decision Trees Into a Random Forest](notebooks/10.02-Combining-Decision-Trees-Into-a-Random-Forest.ipynb)
     - [Using Random Forests for Face Recognition](notebooks/10.03-Using-Random-Forests-for-Face-Recognition.ipynb)
     - [Implementing AdaBoost](notebooks/10.04-Implementing-AdaBoost.ipynb)
