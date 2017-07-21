@@ -119,20 +119,32 @@ You basically want to follow the installation instructions in Chapter 1 of the b
 In short:
 
 1. Download and install [Python Anaconda](https://www.continuum.io/downloads).
+   On Unix, when asked if the Anaconda path should be added to your `PATH` variable, choose yes. Then either open a new terminal or run `$ source ~/.bashrc`.
 
-2. Add Conda-Forge to your trusted channels (to simplify installation of OpenCV on Windows platforms):
+2. Fork and clone the GitHub repo:
+   - Click the
+     [`Fork`](https://github.com/mbeyeler/opencv-machine-learning#fork-destination-box)
+     button in the top-right corner of this page.
+   - Clone the repo, where `YourUsername` is your actual GitHub user name:
+
+   ```
+   $ git clone https://github.com/YourUsername/opencv-machine-learning
+   $ cd opencv-machine-learning
+   ```
+   
+3. Add Conda-Forge to your trusted channels (to simplify installation of OpenCV on Windows platforms):
 
    ```
    $ conda config --add channels conda-forge
    ```
 
-3. Create a conda environment for Python 3 with all required packages:
+4. Create a conda environment for Python 3 with all required packages:
 
    ```
    $ conda create -n Python3 python=3.5 --file requirements.txt
    ```
 
-4. Activate the conda environment.
+5. Activate the conda environment.
    On Linux / Mac OS X:
 
    ```
@@ -148,16 +160,6 @@ In short:
    You can learn more about conda environments in the
    [Managing Environments](http://conda.pydata.org/docs/using/envs.html)
    section of the conda documentation.
-
-5. Fork and clone the GitHub repo:
-   - Click the
-     [`Fork`](https://github.com/mbeyeler/opencv-machine-learning#fork-destination-box)
-     button in the top-right corner of this page.
-   - Clone the repo, where `YourUsername` is your actual GitHub user name:
-
-     ```
-     $ git clone https://github.com/YourUsername/opencv-machine-learning
-     ```
 
 6. Launch Jupyter notebook:
 
