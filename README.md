@@ -15,10 +15,28 @@ Paperback: 382 pages <br/>
 ISBN 978-178398028-4
 <br clear="both"/><br/>
 
-
 The content is available on [GitHub](https://github.com/mbeyeler/opencv-machine-learning).
 The code is released under the [MIT license](https://opensource.org/licenses/MIT).
 
+For questions, discussions, and more detailed help please refer to the [Google group](https://groups.google.com/d/forum/opencv-python-blueprints).
+
+If you use either book or code in a scholarly publication, please cite as:
+
+> M. Beyeler, (2017). Machine Learning for OpenCV. Packt Publishing Ltd., London, England, 380 pages, ISBN 978-178398028-4.
+
+Or use the following bibtex:
+
+```
+@book{MachineLearningOpenCV,
+	title = {{Machine Learning for OpenCV}},
+	subtitle = {{A practical introduction to the world of machine learning and image processing using OpenCV and Python}},
+	author = {Michael Beyeler},
+	year = {2017},
+	pages = {380},
+	publisher = {Packt Publishing Ltd.},
+	isbn = {978-178398028-4}
+}
+```
 
 
 ## Table of Contents
@@ -132,6 +150,11 @@ In short:
    $ cd opencv-machine-learning
    ```
    
+   - Add the following to your remotes:
+   ```
+   $ git remote add upstream https://github.com/mbeyeler/opencv-machine-learning
+   ```
+   
 3. Add Conda-Forge to your trusted channels (to simplify installation of OpenCV on Windows platforms):
 
    ```
@@ -174,6 +197,21 @@ In short:
    and select `Kernel > Restart & Run All` from the top menu.
    
    
+## Getting the latest code
+
+If you followed the instructions above and:
+- forked the repo,
+- cloned the repo,
+- added the `upstream` remote repository,
+
+then you can always grab the latest changes by running a git pull:
+
+```
+$ cd opencv-machine-learning
+$ git pull upstream master
+```
+
+
 ## Acknowledgment
 
 This book was inspired in many ways by the following authors and their corresponding publications:
