@@ -212,6 +212,14 @@ $ cd opencv-machine-learning
 $ git pull upstream master
 ```
 
+## Errata
+
+The following errata have been reported that apply to the print version of the book:
+- p.32: `Out[15]` should read '3' instead of 'int_arr[3]'.
+- p.32: `Out[22]` should read `array([9, 8, 7, 6, 5, 4, 3, 2, 1, 0])` instead of `array([0, 1, 2, 3, 4, 5, 6, 7, 8, 9])`.
+
+Please note that these mistakes do not appear in the code of this repository.
+
 
 ## Acknowledgment
 
