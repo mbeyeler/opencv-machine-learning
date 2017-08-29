@@ -69,7 +69,7 @@ Or use the following bibtex:
    - [Representing Images](notebooks/04.05-Representing-Images.ipynb)
 
 5. [Using Decision Trees to Make a Medical Diagnosis](notebooks/05.00-Using-Decision-Trees-to-Make-a-Medical-Diagnosis.ipynb)
-   - [Building Your First Decision Tree](notebooks/05.01-Building-Your-First-Decision-Tree.ipynb)
+   - [Building Our First Decision Tree](notebooks/05.01-Building-Our-First-Decision-Tree.ipynb)
    - [Using Decision Trees to Diagnose Breast Cancer](notebooks/05.02-Using-Decision-Trees-to-Diagnose-Breast-Cancer.ipynb)
    - [Using Decision Trees for Regression](notebooks/05.03-Using-Decision-Trees-for-Regression.ipynb)
 
@@ -217,6 +217,24 @@ $ git pull upstream master
 The following errata have been reported that apply to the print version of the book:
 - p.32: `Out[15]` should read '3' instead of 'int_arr[3]'.
 - p.32: `Out[22]` should read `array([9, 8, 7, 6, 5, 4, 3, 2, 1, 0])` instead of `array([0, 1, 2, 3, 4, 5, 6, 7, 8, 9])`.
+- p.72: `In [6]` should read `ridgereg = linear_model.Ridge()` instead of `ridgereg = linear_model.RidgeRegression()`.
+- p.120: `In [16]` should read `dtree = cv2.ml.DTrees_create()` instead of `dtree = cv2.ml.dtree_create()`.
+- p.122: `In [26]` should read `with open("tree.dot", 'w'): f = tree.export_graphviz(dtc, out_file=f, feature_names=vec.get_feature_names(), class_names=['A', 'B', 'C', 'D'])` instead of `with open("tree.dot", 'w'): f = tree.export_graphviz(clf, out_file=f)`.
+- p.147: The first occurrences of `X_hypo = np.c_[xx.ravel().astype(np.float32), yy.ravel().astype(np.float32)]` and `_, zz = svm.predict(X_hypo)` should be removed, as they mistakenly appear twice.
+- p.193: `In [28]` is missing `from sklearn import metrics`.
+- p.201: Indentation in bullet points 2-4 are wrong. Please refer to the Jupyter notebook for the correct indentation.
+- p.230: `In [2]` has wrong indentation: `class Perceptron(object)` correctly has indentation level 1, but `def __init__` should have indentation level 2, and the two commands `self.lr = lr; self.n_iter = n_iter` should have indentation level 3.
+- p.260: `In [5]` should read `from keras.models import Sequential` instead of `from keras.model import Sequential`.
+- p.260: `In [6]` should read `model.add(Conv2D(n_filters, (kernel_size[0], kernel_size[1]), padding='valid', input_shape=input_shape))` instead of `model.add(Convolution2D(n_filters, kernel_size[0], kernel_size[1], border_mode='valid', input_shape=input_shape))`.
+- p.260: `In [8]` should read `model.add(Conv2D(n_filters, (kernel_size[0], kernel_size[1])))` instead of `model.add(Convolution2D(n_filters, (kernel_size[0], kernel_size[1])))`.
+- p.261: `In [12]` should read `model.fit(X_train, Y_train, batch_size=128, epochs=12, verbose=1, validation_data=(X_test, Y_test))` instead of `model.fit(X_train, Y_train, batch_size=128, nb_epoch=12, verbose=1, validation_data=(X_test, Y_test))`.
+- p.275, in bullet point 2 it should say `ret = classifier.predict(X_hypo)` instead of `zz = classifier.predict(X_hypo); zz = zz.reshape(xx.shape)`.
+- p.285: `plt.imshow(X[i, :].reshape((64, 64)), cmap='gray')` should be indented so that it is aligned with the previous line.
+- p.288: `In [14]` should read `_, y_hat = rtree.predict(X_test)` instead of `_, y_hat = tree.predict(X_test)`.
+- p.306: `In [2]` should read `from sklearn.model_selection import train_test_split` instead of `from sklearn.model_selection import model_selection`.
+- p.310: `In [18]` should read `knn.train(X_boot, cv2.ml.ROW_SAMPLE, y_boot)` instead of `knn.train(X_train, cv2.ml.ROW_SAMPLE, y_boot)`.
+- p.328: `In [5]` is missing the statement `from sklearn.preprocessing import MinMaxScaler`.
+
 
 Please note that these mistakes do not appear in the code of this repository.
 
