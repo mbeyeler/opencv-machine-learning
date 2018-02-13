@@ -19,7 +19,7 @@ ISBN 978-178398028-4
 The content is available on [GitHub](https://github.com/mbeyeler/opencv-machine-learning).
 The code is released under the [MIT license](https://opensource.org/licenses/MIT).
 
-For questions, discussions, and more detailed help please refer to the [Google group](https://groups.google.com/d/forum/opencv-python-blueprints).
+For questions, discussions, and more detailed help please refer to the [Google group](https://groups.google.com/d/forum/machine-learning-for-opencv).
 
 If you use either book or code in a scholarly publication, please cite as:
 
