@@ -6,9 +6,10 @@
 
 This is the Jupyter notebook version of the following book:
 
-<img src="notebooks/data/cover.jpg" width="200" align="left" style="padding: 1px; border: 1px solid black; margin-right: 5px"/> <br/>
+<img src="https://images-na.ssl-images-amazon.com/images/I/41CKBKW8y4L.jpg" width="200" align="left" style="padding: 1px; border: 1px solid black; margin-right: 5px"/> <br/>
 Michael Beyeler <br/>
-<a href="https://www.packtpub.com/big-data-and-business-intelligence/machine-learning-opencv" target="_blank"><b>Machine Learning for OpenCV: Intelligent Image Processing with Python</b></a>
+<a href="https://www.amazon.com/Machine-Learning-OpenCV-Michael-Beyeler/dp/1783980281" target="_blank"><b>Machine Learning for OpenCV</b></a> <br/>
+Intelligent Image Processing with Python
 <br/><br/>
 14 July 2017 <br/>
 Packt Publishing Ltd., London, England <br/>
