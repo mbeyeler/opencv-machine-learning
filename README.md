@@ -1,7 +1,7 @@
 # Machine Learning for OpenCV
 
 [![Google group](https://img.shields.io/badge/Google-Discussion%20group-lightgrey.svg)](https://groups.google.com/d/forum/machine-learning-for-opencv)
-[![Binder](http://mybinder.org/badge.svg)](http://beta.mybinder.org/v2/gh/mbeyeler/opencv-machine-learning/master)
+[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/mbeyeler/opencv-machine-learning/master)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.833523.svg)](https://doi.org/10.5281/zenodo.833523)
 
 This is the Jupyter notebook version of the following book:
@@ -116,7 +116,7 @@ Or use the following bibtex:
 ## Running the Code
 
 There are at least two ways you can run the code:
-- Using [Binder](http://beta.mybinder.org/v2/gh/mbeyeler/opencv-machine-learning/master) (no installation required).
+- Using [Binder](https://mybinder.org/v2/gh/mbeyeler/opencv-machine-learning/master) (no installation required).
 - Using Jupyter Notebook on your local machine.
 
 The code in this book was tested with Python 3.5, although older versions of Python should work as well
@@ -128,7 +128,7 @@ The code in this book was tested with Python 3.5, although older versions of Pyt
 [Binder](http://www.mybinder.org) allows you to run Jupyter notebooks in an interactive Docker container.
 No installation required!
 
-Launch the project: [mbeyeler/opencv-machine-learning](http://beta.mybinder.org/v2/gh/mbeyeler/opencv-machine-learning/master)
+Launch the project: [mbeyeler/opencv-machine-learning](https://mybinder.org/v2/gh/mbeyeler/opencv-machine-learning/master)
 
 
 
@@ -166,7 +166,7 @@ In short:
 4. Create a conda environment for Python 3 with all required packages:
 
    ```
-   $ conda create -n Python3 python=3.5 --file requirements.txt
+   $ conda create -n Python3 python=3.6 --file requirements.txt
    ```
 
 5. Activate the conda environment.
