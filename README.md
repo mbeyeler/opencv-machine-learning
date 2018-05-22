@@ -20,9 +20,9 @@ ISBN 978-178398028-4
 The content is available on [GitHub](https://github.com/mbeyeler/opencv-machine-learning).
 The code is released under the [MIT license](https://opensource.org/licenses/MIT).
 
-The book is also available as a video course:
-- [Part I: Supervised Learning](https://www.packtpub.com/big-data-and-business-intelligence/machine-learning-opencv-supervised-learning-video)
-- Part II: Advanced methods and deep learning (coming soon)
+The book is also available as a two-part video course:
+- [Part I: Supervised Learning](https://www.packtpub.com/big-data-and-business-intelligence/machine-learning-opencv-supervised-learning-video) ([Free sample](https://www.packtpub.com/mapt/video/big_data_and_business_intelligence/9781789347357/59952/59953/the-course-overview))
+- [Part II: Advanced methods and deep learning](https://www.packtpub.com/big-data-and-business-intelligence/machine-learning-opencv-%E2%80%93-advanced-methods-and-deep-learning-vide) ([Free sample](https://www.packtpub.com/mapt/video/big_data_and_business_intelligence/9781789340525/62127/62128/the-course-overview))
 
 For questions, discussions, and more detailed help please refer to the [Google group](https://groups.google.com/d/forum/machine-learning-for-opencv).
 
