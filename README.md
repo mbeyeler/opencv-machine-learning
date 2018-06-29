@@ -222,6 +222,7 @@ $ git pull upstream master
 The following errata have been reported that apply to the print version of the book:
 - p.32: `Out[15]` should read '3' instead of 'int_arr[3]'.
 - p.32: `Out[22]` should read `array([9, 8, 7, 6, 5, 4, 3, 2, 1, 0])` instead of `array([0, 1, 2, 3, 4, 5, 6, 7, 8, 9])`.
+- p.51: `In [15]` shoud read `precision = true_positive / (true_positive + false_positive)` instead of `precision = true_positive / (true_positive + true_negative)`
 - p.72: `In [6]` should read `ridgereg = linear_model.Ridge()` instead of `ridgereg = linear_model.RidgeRegression()`.
 - p.120: `In [16]` should read `dtree = cv2.ml.DTrees_create()` instead of `dtree = cv2.ml.dtree_create()`.
 - p.122: `In [26]` should read `with open("tree.dot", 'w'): f = tree.export_graphviz(dtc, out_file=f, feature_names=vec.get_feature_names(), class_names=['A', 'B', 'C', 'D'])` instead of `with open("tree.dot", 'w'): f = tree.export_graphviz(clf, out_file=f)`.
