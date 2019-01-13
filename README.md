@@ -222,7 +222,10 @@ $ git pull upstream master
 The following errata have been reported that apply to the print version of the book:
 - p.32: `Out[15]` should read '3' instead of 'int_arr[3]'.
 - p.32: `Out[22]` should read `array([9, 8, 7, 6, 5, 4, 3, 2, 1, 0])` instead of `array([0, 1, 2, 3, 4, 5, 6, 7, 8, 9])`.
-- p.51: `In [15]` shoud read `precision = true_positive / (true_positive + false_positive)` instead of `precision = true_positive / (true_positive + true_negative)`
+- p.33: In the sentence: "Here, the first dimension defines the color channel...", the order of color channels should read "blue, green, and red in OpenCV" instead of "red, green, blue, green, and red".
+- p.36: The range of x values should read "0 <= x <= 10" instead of "0 <= x < 10", since `np.linspace` by default includes the endpoint.
+- p.51: `In [15]` shoud read `precision = true_positive / (true_positive + false_positive)` instead of `precision = true_positive / (true_positive + true_negative)`.
+- p.51: `Out[15]` should read 0.2 instead of 1.0.
 - p.72: `In [6]` should read `ridgereg = linear_model.Ridge()` instead of `ridgereg = linear_model.RidgeRegression()`.
 - p.91:  The last paragraph should read `We also specify an empty array, np.array([]), for the mean argument, which tells OpenCV to  compute the mean from the data:` instead of `We also specify an empty array, np.array([]), for the mask argument, which tells OpenCV to use all data points in the feature matrix:`.
 - p.120: `In [16]` should read `dtree = cv2.ml.DTrees_create()` instead of `dtree = cv2.ml.dtree_create()`.
