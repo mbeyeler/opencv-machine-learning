@@ -227,6 +227,7 @@ The following errata have been reported that apply to the print version of the b
 - p.51: `In [15]` shoud read `precision = true_positive / (true_positive + false_positive)` instead of `precision = true_positive / (true_positive + true_negative)`.
 - p.51: `Out[15]` should read 0.2 instead of 1.0.
 - p.72: `In [6]` should read `ridgereg = linear_model.Ridge()` instead of `ridgereg = linear_model.RidgeRegression()`.
+- p.85: The first line of `In [8]` should read `min_max_scaler = preprocessing.MinMaxScaler(feature_range=(-10,10))` instead of `min_max_scaler = preprocessing.MinMaxScaler(feature_range (-10,10))`.
 - p.91:  The last paragraph should read `We also specify an empty array, np.array([]), for the mean argument, which tells OpenCV to  compute the mean from the data:` instead of `We also specify an empty array, np.array([]), for the mask argument, which tells OpenCV to use all data points in the feature matrix:`.
 - p.120: `In [16]` should read `dtree = cv2.ml.DTrees_create()` instead of `dtree = cv2.ml.dtree_create()`.
 - p.122: `In [26]` should read `with open("tree.dot", 'w'): f = tree.export_graphviz(dtc, out_file=f, feature_names=vec.get_feature_names(), class_names=['A', 'B', 'C', 'D'])` instead of `with open("tree.dot", 'w'): f = tree.export_graphviz(clf, out_file=f)`.
