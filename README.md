@@ -123,8 +123,7 @@ There are at least two ways you can run the code:
 - Using [Binder](https://mybinder.org/v2/gh/mbeyeler/opencv-machine-learning/master) (no installation required).
 - Using Jupyter Notebook on your local machine.
 
-The code in this book was tested with Python 3.5, although older versions of Python should work as well
-(such as Python 2.7).
+The code in this book was tested with Python 3.5, although Python 3.6 and 2.7 should work as well. 
 
 
 ### Using Binder
@@ -219,7 +218,7 @@ $ git pull upstream master
 
 ## Errata
 
-The following errata have been reported that apply to the print version of the book:
+The following errata have been reported that apply to the print version of the book. Some of these are typos, others are bugs in the code. Please note that all known bugs have been fixed in the code of this repository.
 - p.32: `Out[15]` should read '3' instead of 'int_arr[3]'.
 - p.32: `Out[22]` should read `array([9, 8, 7, 6, 5, 4, 3, 2, 1, 0])` instead of `array([0, 1, 2, 3, 4, 5, 6, 7, 8, 9])`.
 - p.33: In the sentence: "Here, the first dimension defines the color channel...", the order of color channels should read "blue, green, and red in OpenCV" instead of "red, green, blue, green, and red".
@@ -246,9 +245,6 @@ The following errata have been reported that apply to the print version of the b
 - p.306: `In [2]` should read `from sklearn.model_selection import train_test_split` instead of `from sklearn.model_selection import model_selection`.
 - p.310: `In [18]` should read `knn.train(X_boot, cv2.ml.ROW_SAMPLE, y_boot)` instead of `knn.train(X_train, cv2.ml.ROW_SAMPLE, y_boot)`.
 - p.328: `In [5]` is missing the statement `from sklearn.preprocessing import MinMaxScaler`.
-
-
-Please note that these mistakes do not appear in the code of this repository.
 
 
 ## Acknowledgment
