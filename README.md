@@ -233,6 +233,7 @@ The following errata have been reported that apply to the print version of the b
 - p.122: `In [26]` should read `with open("tree.dot", 'w'): f = tree.export_graphviz(dtc, out_file=f, feature_names=vec.get_feature_names(), class_names=['A', 'B', 'C', 'D'])` instead of `with open("tree.dot", 'w'): f = tree.export_graphviz(clf, out_file=f)`. Also, the second line should be indented.
 - p.147: The first occurrences of `X_hypo = np.c_[xx.ravel().astype(np.float32), yy.ravel().astype(np.float32)]` and `_, zz = svm.predict(X_hypo)` should be removed, as they mistakenly appear twice.
 - p.193: `In [28]` is missing `from sklearn import metrics`.
+- p.197: The sentence right below `In [3]` should read "Then we can pass the preceding data matrix (`X`) to `cv2.kmeans`", not `cv2.means`.
 - p.201: Indentation in bullet points 2-4 are wrong. Please refer to the Jupyter notebook for the correct indentation.
 - p.230: `In [2]` has wrong indentation: `class Perceptron(object)` correctly has indentation level 1, but `def __init__` should have indentation level 2, and the two commands `self.lr = lr; self.n_iter = n_iter` should have indentation level 3.
 - p.260: `In [5]` should read `from keras.models import Sequential` instead of `from keras.model import Sequential`.
