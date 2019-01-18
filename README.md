@@ -235,6 +235,7 @@ The following errata have been reported that apply to the print version of the b
 - p.193: `In [28]` is missing `from sklearn import metrics`.
 - p.197: The sentence right below `In [3]` should read "Then we can pass the preceding data matrix (`X`) to `cv2.kmeans`", not `cv2.means`.
 - p.201: Indentation in bullet points 2-4 are wrong. Please refer to the Jupyter notebook for the correct indentation.
+- p.228: The last sentence in the middle paragraph should read "[...] thus hopefully classifying the sample as y_{hat}=+1" instead of "[...] thus hopefully classifying the sample as y_{hat}=-1".
 - p.230: `In [2]` has wrong indentation: `class Perceptron(object)` correctly has indentation level 1, but `def __init__` should have indentation level 2, and the two commands `self.lr = lr; self.n_iter = n_iter` should have indentation level 3.
 - p.260: `In [5]` should read `from keras.models import Sequential` instead of `from keras.model import Sequential`.
 - p.260: `In [6]` should read `model.add(Conv2D(n_filters, (kernel_size[0], kernel_size[1]), padding='valid', input_shape=input_shape))` instead of `model.add(Convolution2D(n_filters, kernel_size[0], kernel_size[1], border_mode='valid', input_shape=input_shape))`.
