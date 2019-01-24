@@ -244,6 +244,7 @@ The following errata have been reported that apply to the print version of the b
 - p.275, in bullet point 2 it should say `ret = classifier.predict(X_hypo)` instead of `zz = classifier.predict(X_hypo); zz = zz.reshape(xx.shape)`.
 - p.285: `plt.imshow(X[i, :].reshape((64, 64)), cmap='gray')` should be indented so that it is aligned with the previous line.
 - p.288: `In [14]` should read `_, y_hat = rtree.predict(X_test)` instead of `_, y_hat = tree.predict(X_test)`.
+- p.305: The first paragraph should read "...and the remaining folds (1, 2, and 4) for training" instead of "...and the remaining folds (1, 2, and 4) for testing".
 - p.306: `In [2]` should read `from sklearn.model_selection import train_test_split` instead of `from sklearn.model_selection import model_selection`.
 - p.310: `In [18]` should read `knn.train(X_boot, cv2.ml.ROW_SAMPLE, y_boot)` instead of `knn.train(X_train, cv2.ml.ROW_SAMPLE, y_boot)`.
 - p.328: `In [5]` is missing the statement `from sklearn.preprocessing import MinMaxScaler`.
