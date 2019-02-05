@@ -44,6 +44,11 @@ Or use the following bibtex:
 }
 ```
 
+Scholarly work referencing this book:
+- S Lynch (2018). Image Processing with Python. *Dynamical Systems with Applications using Python*, Springer.
+- MQG Quiroz (2018). Inductive Machine Learning with Image Processing for Objects Detection of a Robotic Arm with Raspberry PI. *International Conference on Technology Trends*.
+- A Konate (2018). Un aperçu sur quelques méthodes en apprentissage automatique supervisé. *HAL* 01946237.
+
 
 ## Table of Contents
 
