@@ -1,7 +1,6 @@
 # Machine Learning for OpenCV
 
 [![Google group](https://img.shields.io/badge/Google-Discussion%20group-lightgrey.svg)](https://groups.google.com/d/forum/machine-learning-for-opencv)
-[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/mbeyeler/opencv-machine-learning/master)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.833523.svg)](https://doi.org/10.5281/zenodo.833523)
 
 This is the Jupyter notebook version of the following book:
@@ -17,14 +16,13 @@ Paperback: 382 pages <br/>
 ISBN 978-178398028-4
 <br clear="both"/><br/>
 
+
+
 The content is available on [GitHub](https://github.com/mbeyeler/opencv-machine-learning).
 The code is released under the [MIT license](https://opensource.org/licenses/MIT).
 
-The book is also available as a two-part video course:
-- [Part I: Supervised Learning](https://www.packtpub.com/big-data-and-business-intelligence/machine-learning-opencv-supervised-learning-video) ([Free sample](https://www.packtpub.com/mapt/video/big_data_and_business_intelligence/9781789347357/59952/59953/the-course-overview))
-- [Part II: Advanced methods and deep learning](https://www.packtpub.com/big-data-and-business-intelligence/machine-learning-opencv-%E2%80%93-advanced-methods-and-deep-learning-vide) ([Free sample](https://www.packtpub.com/mapt/video/big_data_and_business_intelligence/9781789340525/62127/62128/the-course-overview))
-
-For questions, discussions, and more detailed help please refer to the [Google group](https://groups.google.com/d/forum/machine-learning-for-opencv).
+A [second edition](https://www.packtpub.com/product/machine-learning-for-opencv-4-second-edition/9781789536300) has now been released (using OpenCV4).
+The book is also available as a [Udemy course](https://www.udemy.com/course/machine-learning-and-deep-learning-with-opencv/).
 
 If you use either book or code in a scholarly publication, please cite as:
 
@@ -44,10 +42,11 @@ Or use the following bibtex:
 }
 ```
 
-Scholarly work referencing this book:
+The book has been referenced more than 45 times in scholarly work (source: Google Scholar). Citing studies include:
+- VS Padilla, RA Ponguillo, AA Abad, LE Salas (2020). Cyber-physical system based on image recognition to improve traffic flow: A case study. *International Journal of Electrical and Computer Engineering (IJECE)*
+- O Balitskii, V Kolesnikov (2019). Identification of wear products in the automotive tribotechnical system using computer vision methods, artificial intelligence and big data. *XIth International Scientific and Practical Conference on Electronics and Information Technologies (ELIT)*
 - S Lynch (2018). Image Processing with Python. *Dynamical Systems with Applications using Python*, Springer.
 - MQG Quiroz (2018). Inductive Machine Learning with Image Processing for Objects Detection of a Robotic Arm with Raspberry PI. *International Conference on Technology Trends*.
-- A Konate (2018). Un aperçu sur quelques méthodes en apprentissage automatique supervisé. *HAL* 01946237.
 
 
 ## Table of Contents
@@ -125,7 +124,7 @@ Scholarly work referencing this book:
 ## Running the Code
 
 There are at least two ways you can run the code:
-- Using [Binder](https://mybinder.org/v2/gh/mbeyeler/opencv-machine-learning/master) (no installation required).
+- **deprecated** Using [Binder](https://mybinder.org/v2/gh/mbeyeler/opencv-machine-learning/master) (no installation required).
 - Using Jupyter Notebook on your local machine.
 
 The code in this book was tested with Python 3.5, although Python 3.6 and 2.7 should work as well. 
